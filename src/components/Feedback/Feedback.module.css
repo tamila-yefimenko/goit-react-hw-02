@@ -1,0 +1,12 @@
+.feedbackList {
+  list-style-type: none;
+}
+
+.feedbackItem {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.feedbackItem:not(:last-child) {
+  margin-bottom: 16px;
+}

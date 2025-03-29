@@ -1,0 +1,19 @@
+.optionButton {
+  text-transform: capitalize;
+  font-size: 20px;
+  border: solid 1px rgb(157, 156, 156);
+}
+
+.optionButton:hover {
+  background-color: rgb(206, 204, 204);
+  border: solid 1px grey;
+}
+
+.optionButton:active,
+.optionButton:focus {
+  outline: none;
+}
+
+.optionButton:not(last-child) {
+  margin-right: 10px;
+}
